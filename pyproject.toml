@@ -4,11 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Aleksandr Mazurenko <amazurenko@rvision.ru>"]
 readme = "README.md"
-packages = [{include = "bot_stankozavod"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 aiogram = {version = "^3.0.0rc2", allow-prereleases = true}
+pydantic-settings = "^2.0.3"
 
 
 [build-system]
